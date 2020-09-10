@@ -1,0 +1,202 @@
+body{
+    margin: 0!important;
+    padding: 0 !important;
+    font-family: Microsoft YaHei;
+    background-size: cover;
+    min-width: 1334px !important;
+}
+
+div{
+    color: #C3CAD9;
+}
+.el-table{
+    font-size: 10px !important;
+
+}
+.el-table th, .el-table tr{
+    background: transparent !important;
+}
+
+.el-menu-item{
+    background-color: transparent !important;
+}
+
+.el-select-dropdown__item{
+    color: #C3CAD9 !important;
+}
+
+.el-table, .el-table__expanded-cell {
+    background: transparent !important;
+}
+.el-year-table td .cell {
+    color:  #C3CAD9 !important;
+}
+.el-month-table td .cell {
+    color:  #C3CAD9 !important;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before {
+    height: 0 !important;
+    background: transparent !important;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+    color: #cc2636 !important;
+}
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #FF3030 !important;
+    background: #0E1C3D !important;
+}
+
+.el-radio__inner::after {
+    background-color: #FF3030 !important;
+}
+
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-right: 1px solid rgba(101,124,168,0.1) !important;
+}
+
+.el-table--border::after{
+    background: transparent !important;
+}
+
+.el-table--border{
+    border: solid 1px rgba(101,124,168,0.1) !important;
+}
+
+.el-radio__label{
+    font-size: 16px !important;
+}
+
+.el-table td, .el-table th {
+    padding: 4px!important;
+}
+
+.el-radio__inner{
+    background-color: transparent !important;
+}
+
+.el-table td, .el-table th.is-leaf {
+    border-bottom: 1px solid #3A4D75!important;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(101,124,168,0.1);
+    margin: 0;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+    color: #6072B2 !important;
+    background-color: #273465 !important;
+    border-right-color: #273465 !important;
+    border-left-color: #273465 !important;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: #6072B2 !important;
+    background-color: #101A43 !important;
+    border-right-color: #101A43 !important;
+    border-left-color: #101A43 !important;
+}
+.el-picker-panel{
+    background:rgba(35, 42, 79, 1)  !important;
+}
+
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: rgba(101,124,168,0.1) !important;
+}
+
+.el-select-dropdown{
+    background: rgba(35, 42, 79, 1) !important;
+}
+
+.el-tabs--border-card {
+    background: transparent !important;
+    border: 0px solid rgba(101,124,168,0.1) !important;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+    border-bottom: none !important;
+    margin: 0;
+}
+
+.el-table thead {
+    background: #19284A !important;
+}
+
+::-webkit-scrollbar
+{
+    width:4px;
+    height:0;
+    background-color:#5F8DC3 !important;
+}
+/*定义滚动条轨道
+ 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius:10px;
+    background-color:#5F8DC3 !important;
+}
+/*定义滑块
+ 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius:10px;
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+    background-color:#5F8DC3 !important;;
+}
+
+.el-date-table th {
+    color:  #C3CAD9 !important;
+}
+.el-picker-panel__icon-btn {
+    color:  #C3CAD9 !important;
+}
+.el-date-picker__header-label {
+    color:  #C3CAD9 !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #74B9FF !important;
+  font-size:14px !important;
+  font-family:Microsoft YaHei !important;
+  font-weight:400 !important;
+  }
+  
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #74B9FF !important;
+  font-size:14px !important;
+  font-family:Microsoft YaHei !important;
+  font-weight:400 !important;
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #74B9FF !important;
+  font-size:14px !important;
+  font-family:Microsoft YaHei !important;
+  font-weight:400 !important;
+} 
+.el-icon-date:before {
+    color: #74B9FF !important;
+}
+
+.el-month-table td {
+    height: 60px !important;
+}
+.el-year-table td {
+    height: 60px !important;
+}
+
+.box-shadow {
+    border: solid 1px #0b1c3d;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px #7daaff inset;
+    background-color:rgba(11, 28, 61, 0.5);
+  }
+  /* .el-tabs__content{
+    border: solid 1px #0b1c3d !important;
+    border-radius: 2px !important;
+    box-shadow: 0px 0px 6px #7daaff inset !important;
+    background-color:rgba(11, 28, 61, 0.5) !important;
+} */
