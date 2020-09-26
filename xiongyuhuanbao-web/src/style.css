@@ -3,7 +3,7 @@ body{
     padding: 0 !important;
     font-family: Microsoft YaHei;
     background-size: cover;
-    min-width: 1334px !important;
+    /* min-width: 1334px !important; */
 }
 
 div{
