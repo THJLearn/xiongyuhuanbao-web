@@ -28,6 +28,9 @@ import load from "./dynamicLoadScript";
 // why use this cdn, detail see https://github.com/PanJiaChen/tinymce-all-in-one
 const tinymceCDN =
   "https://cdn.jsdelivr.net/npm/tinymce-all-in-one@4.9.3/tinymce.min.js";
+  // const tinymceCDN =
+  // "https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js";
+  
 
 export default {
   name: "Tinymce",
@@ -136,6 +139,7 @@ export default {
         body_class: "panel-body ",
         object_resizing: false,
         toolbar: this.toolbar.length > 0 ? this.toolbar : toolbar,
+        fontsize_formats: "8pt 10pt 12pt 14pt 16px 18pt 20pt 24pt 26pt 28pt 30pt 32pt 36pt 48pt",
         menubar: this.menubar,
         plugins: plugins,
         end_container_on_empty_block: true,
